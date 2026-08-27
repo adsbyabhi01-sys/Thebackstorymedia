@@ -93,12 +93,7 @@ export default function Home() {
                                     <span>Close</span>
                                 </div>
                             </div>
-                            <div className="simpleplan-menu-button">
-                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4 1V7" stroke="white" strokeLinecap="square" strokeLinejoin="round"/>
-                                    <path d="M1 4H7" stroke="white" strokeLinecap="square" strokeLinejoin="round"/>
-                                </svg>
-                            </div>
+                            <div className="simpleplan-menu-button"></div>
                         </div>
                     </a>
                                
@@ -165,32 +160,32 @@ export default function Home() {
              <div className="circle-small circle-2">
                 <div className="circle-wrapper">
                     <div className="fill"></div>
-                   <img src="https://www.thebackstorymedia.com/wp-content/uploads/2025/07/bimg4.png" fetchPriority="high" className="img"/>
+                   <img src="https://placehold.co/600x400?text=Placeholder" fetchPriority="high" className="img"/>
                    </div>
              </div>
              <div className="circle-big active circle-3">
                 <div className="circle-wrapper">
                 <div className="fill"></div>
-               <img src="https://www.thebackstorymedia.com/wp-content/uploads/2025/07/bimg2.jpg" fetchPriority="high" className="img"/>
+               <img src="https://placehold.co/600x400?text=Placeholder" fetchPriority="high" className="img"/>
             </div>
              </div>
              <div className="circle-big circle-4">
                 <div className="circle-wrapper">
                 <div className="fill"></div>
-                <img src="https://www.thebackstorymedia.com/wp-content/uploads/2026/02/invogue-1.png" fetchPriority="high" className="img" />
-               {/*  <img src="https://www.thebackstorymedia.com/wp-content/uploads/2025/07/spimg1.png" fetchPriority="high" className="img"/>  */}
+                <img src="https://placehold.co/600x400?text=Placeholder" fetchPriority="high" className="img" />
+               {/*  <img src="https://placehold.co/600x400?text=Placeholder" fetchPriority="high" className="img"/>  */}
                </div> 
              </div>
             <div className="circle-small circle-5">
                 <div className="circle-wrapper">
                     <div className="fill"></div>
-                    <img src="https://www.thebackstorymedia.com/wp-content/uploads/2024/06/spimg6.png" fetchPriority="high" className="img" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" fetchPriority="high" className="img" />
                 </div>
             </div>
             <div className="circle-big circle-6">
                 <div className="circle-wrapper">
                     <div className="fill"></div>
-                   <img src="https://www.thebackstorymedia.com/wp-content/uploads/2025/07/bimg5.jpg" fetchPriority="high" className="img" />
+                   <img src="https://placehold.co/600x400?text=Placeholder" fetchPriority="high" className="img" />
                    </div>
             </div>
            
@@ -471,43 +466,7 @@ export default function Home() {
                   </div>
             </div>
         </div>
-        <div className="sp-quite-slider-wrapper">
-            <div className="swiper mySwiper">
-                <div className="swiper-wrapper">
-                  <div className="swiper-slide">
-                    <div className="quite-sp-slider-box">
-                        <div className="quite-sp-slider-label">
-                            <p>Leave a lasting</p>
-                        </div>
-                        <div className="quite-sp-slider-heading">
-                            <h2>Impression</h2>
-                        </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="quite-sp-slider-box">
-                        <div className="quite-sp-slider-label">
-                            <p>Extend your brand's</p>
-                        </div>
-                        <div className="quite-sp-slider-heading">
-                            <h2>Reach</h2>
-                        </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="quite-sp-slider-box">
-                        <div className="quite-sp-slider-label">
-                            <p>Grow your profits and</p>
-                        </div>
-                        <div className="quite-sp-slider-heading">
-                            <h2>Revenue</h2>
-                        </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-        </div>
+        
       </div>
     </section>
 
@@ -589,205 +548,205 @@ export default function Home() {
         <div className="sp-ticker-wrapper flex">
             <div className="sp-ticker-container">
                 <div className="sp-ticker-item flex align">
-                   <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-1.svg" alt="Gutly" />
+                   <img src="https://placehold.co/600x400?text=Placeholder" alt="Gutly" />
                 </div>
                 <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-2.svg" alt="GWB Creative" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="GWB Creative" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-3.svg" alt="Glood" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Glood" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-4.svg" alt="Feeling Good Institute" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Feeling Good Institute" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-5.svg" alt="Dar es Salaam International Academy" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Dar es Salaam International Academy" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-6.svg" alt="City Legal" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="City Legal" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-7.svg" alt="Josh talks" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Josh talks" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-8.svg" alt="Coquihalla" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Coquihalla" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-9.svg" alt="Cara a cara" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Cara a cara" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-10.svg" alt="Bucket List" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Bucket List" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-11.svg" alt="Gravette" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Gravette" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-12.svg" alt="826 Digital" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="826 Digital" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-13.svg" alt="momos" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="momos" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-14.svg" alt="SRM" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="SRM" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-15.svg" alt="Dorna Robotics" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Dorna Robotics" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-16.svg" alt="Save the Children" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Save the Children" />
                   </div>
                   
             </div>
             <div aria-hidden="true" className="sp-ticker-container">
                 <div className="sp-ticker-item flex align">
-                   <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-1.svg" alt="Gutly" />
+                   <img src="https://placehold.co/600x400?text=Placeholder" alt="Gutly" />
                 </div>
                 <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-2.svg" alt="GWB Creative" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="GWB Creative" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-3.svg" alt="Glood" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Glood" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-4.svg" alt="Feeling Good Institute" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Feeling Good Institute" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-5.svg" alt="Dar es Salaam International Academy" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Dar es Salaam International Academy" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-6.svg" alt="City Legal" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="City Legal" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-7.svg" alt="Josh talks" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Josh talks" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-8.svg" alt="Coquihalla" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Coquihalla" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-9.svg" alt="Cara a cara" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Cara a cara" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-10.svg" alt="Bucket List" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Bucket List" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-11.svg" alt="Gravette" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Gravette" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-12.svg" alt="826 Digital" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="826 Digital" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-13.svg" alt="momos" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="momos" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-14.svg" alt="momos" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="momos" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-15.svg" alt="Dorna Robotics" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Dorna Robotics" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-16.svg" alt="Save the Children" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Save the Children" />
                   </div>
                   
             </div>
             <div aria-hidden="true" className="sp-ticker-container">
                 <div className="sp-ticker-item flex align">
-                   <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-1.svg" alt="Gutly" />
+                   <img src="https://placehold.co/600x400?text=Placeholder" alt="Gutly" />
                 </div>
                 <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-2.svg" alt="GWB Creative" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="GWB Creative" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-3.svg" alt="Glood" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Glood" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-4.svg" alt="Feeling Good Institute" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Feeling Good Institute" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-5.svg" alt="Dar es Salaam International Academy" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Dar es Salaam International Academy" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-6.svg" alt="City Legal" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="City Legal" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-7.svg" alt="Josh talks" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Josh talks" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-8.svg" alt="Coquihalla" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Coquihalla" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-9.svg" alt="Cara a cara" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Cara a cara" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-10.svg" alt="Bucket List" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Bucket List" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-11.svg" alt="Gravette" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Gravette" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-12.svg" alt="826 Digital" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="826 Digital" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-13.svg" alt="momos" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="momos" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-14.svg" alt="momos" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="momos" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-15.svg" alt="Dorna Robotics" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Dorna Robotics" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-16.svg" alt="Save the Children" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Save the Children" />
                   </div>
                   
             </div>
             <div aria-hidden="true" className="sp-ticker-container">
                 <div className="sp-ticker-item flex align">
-                   <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-1.svg" alt="Gutly" />
+                   <img src="https://placehold.co/600x400?text=Placeholder" alt="Gutly" />
                 </div>
                 <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-2.svg" alt="GWB Creative" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="GWB Creative" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-3.svg" alt="Glood" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Glood" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-4.svg" alt="Feeling Good Institute" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Feeling Good Institute" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-5.svg" alt="Dar es Salaam International Academy" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Dar es Salaam International Academy" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-6.svg" alt="City Legal" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="City Legal" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-7.svg" alt="Josh talks" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Josh talks" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                    <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-8.svg" alt="Coquihalla" />
+                    <img src="https://placehold.co/600x400?text=Placeholder" alt="Coquihalla" />
                  </div>
                  <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-9.svg" alt="Cara a cara" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Cara a cara" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-10.svg" alt="Bucket List" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Bucket List" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-11.svg" alt="Gravette" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Gravette" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-12.svg" alt="826 Digital" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="826 Digital" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-13.svg" alt="momos" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="momos" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-14.svg" alt="momos" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="momos" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-15.svg" alt="Dorna Robotics" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Dorna Robotics" />
                   </div>
                   <div className="sp-ticker-item flex align">
-                     <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/client-logo-16.svg" alt="Save the Children" />
+                     <img src="https://placehold.co/600x400?text=Placeholder" alt="Save the Children" />
                   </div>
                   
             </div>
@@ -816,7 +775,7 @@ export default function Home() {
                             Gold Winner in Websites Design for Social Change
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/uploads/2024/01/indigo-gold.png" alt="indigo gold" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="indigo gold" />
                            </div>
                         </div>
                    
@@ -835,7 +794,7 @@ export default function Home() {
                             Silver Winner in Branding for Social Change
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/uploads/2024/01/silver-willow-tree-1.png" alt="Silver willow tree " />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Silver willow tree " />
                            </div>
                         </div>
                    
@@ -853,7 +812,7 @@ export default function Home() {
                             Silver Award For Digital Design At Indigo Design Awards
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/silver.png" alt="Silver" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Silver" />
                            </div>
                         </div>
                    
@@ -871,7 +830,7 @@ export default function Home() {
                             Gold Award For Branding At Indigo Design Awards
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/gold.jpg" alt="Gold" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Gold" />
                            </div>
                         </div>
                    
@@ -889,7 +848,7 @@ export default function Home() {
                             Guru of the Day on July 30th
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/indigo-gold.png" alt="Indigo Gold" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Indigo Gold" />
                            </div>
                         </div>
                    
@@ -907,7 +866,7 @@ export default function Home() {
                             Site of the Day on May 31st 
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/indigo-gold.png" alt="Indigo Gold" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Indigo Gold" />
                            </div>
                         </div>
                    
@@ -925,7 +884,7 @@ export default function Home() {
                             Website Featured On Landbook
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/cara.png" alt="Cara" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Cara" />
                            </div>
                         </div>
                    
@@ -943,7 +902,7 @@ export default function Home() {
                             Guru Of The Month On Web Guru Awards
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/Guru.png" alt="Guru" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Guru" />
                            </div>
                         </div>
                    
@@ -961,7 +920,7 @@ export default function Home() {
                             Website Featured On Landbook
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/landbook.png" alt="Landbook" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Landbook" />
                            </div>
                         </div>
                    
@@ -979,7 +938,7 @@ export default function Home() {
                             Guru Of The Day On Web Guru Awards
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/Guru.png" alt="Guru" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Guru" />
                            </div>
                         </div>
                    
@@ -997,7 +956,7 @@ export default function Home() {
                             Finalist South East Asia Digital Branding Awards
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/uploads/2024/01/southeastasia.png" alt="South East Asia" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="South East Asia" />
                            </div>
                         </div>
                    
@@ -1015,7 +974,7 @@ export default function Home() {
                             Featured On Top CSS Gallery
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/uploads/2024/01/CSS-Gall-1.png" alt="CSS Gallery" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="CSS Gallery" />
                            </div>
                         </div>
                    
@@ -1033,7 +992,7 @@ export default function Home() {
                             Guru Of The Day On Web Guru Awards
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/silver.png" alt="Silver" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Silver" />
                            </div>
                         </div>
                    
@@ -1051,7 +1010,7 @@ export default function Home() {
                             Site Of The Day On Design Nominees
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/SOD.png" alt="SOD" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="SOD" />
                            </div>
                         </div>
                    
@@ -1069,7 +1028,7 @@ export default function Home() {
                             Website Featured On Landbook
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/silver.png" alt="Silver" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Silver" />
                            </div>
                         </div>
                    
@@ -1087,7 +1046,7 @@ export default function Home() {
                             Guru Of The Day On Web Guru Awards
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/GOD.png" alt="GOD" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="GOD" />
                            </div>
                         </div>
                    
@@ -1105,7 +1064,7 @@ export default function Home() {
                             Site Of The Day On Design Nominees
                            </div>
                            <div className="sp-award-image">
-                            <img src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/images/silver.png" alt="Silver" />
+                            <img src="https://placehold.co/600x400?text=Placeholder" alt="Silver" />
                            </div>
                         </div>
                    
@@ -1142,7 +1101,7 @@ export default function Home() {
                         <div className="sp-works-work-heading"><span>Gravette:</span> Unveiling power of simplicity and function</div>
                         <div className="sp-works-work-image-wrapper">
                             <a href="https://www.thebackstorymedia.com/work/product-branding-and-marketing-for-electronic-startup/"><div className="sp-works-work-image">
-                                    <img className="img" src="https://www.thebackstorymedia.com/wp-content/uploads/2024/01/project-gravette-1-1.png" alt="Project Gravette" />
+                                    <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="Project Gravette" />
                             </div>
                             <div className="sp-works-work-cta sp-cta">
                                view project
@@ -1160,7 +1119,7 @@ export default function Home() {
                         <div className="sp-works-work-heading"><span>Osin Lighting:</span> functionality meets elegance</div>
                         <div className="sp-works-work-image-wrapper">
                             <a href="https://www.thebackstorymedia.com/work/branding-for-tech-startup/"><div className="sp-works-work-image">
-                                    <img className="img" src="https://www.thebackstorymedia.com/wp-content/uploads/2024/01/18.webp" alt="Osin brand" />
+                                    <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="Osin brand" />
                             </div>
                             <div className="sp-works-work-cta sp-cta">
                                view project
@@ -1178,7 +1137,7 @@ export default function Home() {
                         <div className="sp-works-work-heading"><span>Itsettled:</span> Financial management made seamless</div>
                         <div className="sp-works-work-image-wrapper">
                             <a href="https://www.thebackstorymedia.com/work/web-design-and-development-for-fintech-brand/"><div className="sp-works-work-image">
-                                    <img className="img" src="https://www.thebackstorymedia.com/wp-content/uploads/2024/01/itsettled-banner.webp" alt="Itsettled Banner on Laptop" />
+                                    <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="Itsettled Banner on Laptop" />
                             </div>
                             <div className="sp-works-work-cta sp-cta">
                                view project
@@ -1196,7 +1155,7 @@ export default function Home() {
                         <div className="sp-works-work-heading"><span>Soko:</span> Celebrating and supporting all shapes and sizes.</div>
                         <div className="sp-works-work-image-wrapper">
                             <a href="https://www.thebackstorymedia.com/work/brand-identity-and-development-for-fashion-business/"><div className="sp-works-work-image">
-                                    <img className="img" src="https://www.thebackstorymedia.com/wp-content/uploads/2025/07/bimg7.jpg" alt="Soko - Apparel Website Designing" />
+                                    <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="Soko - Apparel Website Designing" />
                             </div>
                             <div className="sp-works-work-cta sp-cta">
                                view project
@@ -1214,7 +1173,7 @@ export default function Home() {
                         <div className="sp-works-work-heading"><span>Bucketlist:</span> Empowering street-connected children, nurturing their growth.</div>
                         <div className="sp-works-work-image-wrapper">
                             <a href="https://www.thebackstorymedia.com/work/digital-marketing-and-branding-for-nonprofit-organisation/"><div className="sp-works-work-image">
-                                    <img className="img" src="https://www.thebackstorymedia.com/wp-content/uploads/2024/01/Rectangle-23955-4-1.png" alt="Bucket List - NGO Branding" />
+                                    <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="Bucket List - NGO Branding" />
                             </div>
                             <div className="sp-works-work-cta sp-cta">
                                view project
@@ -1248,7 +1207,7 @@ export default function Home() {
             </div>
             <div className="sp-glad-picture">
                 <a href="https://www.thebackstorymedia.com/about/">
-                    <img className="img" src="https://www.thebackstorymedia.com/wp-content/uploads/2025/07/spimg5.jpg" alt="The Backstory Media Team" />
+                    <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="The Backstory Media Team" />
                 </a>
             </div>
         </div>
@@ -1275,7 +1234,7 @@ export default function Home() {
                               <div className="sp-works-work-heading"><span>What Is Brand’s:</span> Tone of Voice (and how to derive it)</div>
                               <div className="sp-works-work-image-wrapper">
                                   <a href="https://www.thebackstorymedia.com/blogs/brands-tone-of-voice/"><div className="sp-works-work-image blog-img">
-                                      <img className="img" src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/blogs-images/What-Is-Brands-Tone-of-Voice.png" alt="Brand’s Tone of Voice" />
+                                      <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="Brand’s Tone of Voice" />
                                   </div>
                                   <div className="sp-get-reading-read-body">
                                     <p>Every brand wants to come out as human to target its customers. Conveying emotions and invoking some, the brands of today want their customers to relate to them more and more...</p>
@@ -1292,7 +1251,7 @@ export default function Home() {
                               <div className="sp-works-work-heading"><span>The Various:</span> Elements of Branding</div>
                               <div className="sp-works-work-image-wrapper">
                                   <a href="https://www.thebackstorymedia.com/blogs/elements-of-branding/"><div className="sp-works-work-image blog-img">
-                                      <img className="img" src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/blogs-images/The Various Elements of Branding.png" alt="The Various Elements of Branding" />
+                                      <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="The Various Elements of Branding" />
                                   </div>
                                   <div className="sp-get-reading-read-body">
                                     <p>Brand…branding…elements of branding? No, it’s not a tongue-twister, but confusing nonetheless? These string of similar-sounding words seem to share a relation not just because of their morphology but also because they are proven concepts in the marketing world...</p>
@@ -1309,7 +1268,7 @@ export default function Home() {
                               <div className="sp-works-work-heading"><span>Is branding:</span> the right thing to do for your business?</div>
                               <div className="sp-works-work-image-wrapper">
                                   <a href="https://www.thebackstorymedia.com/blogs/purpose-of-branding/"><div className="sp-works-work-image blog-img">
-                                      <img className="img" src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/blogs-images/Is branding the right thing to do for your business.png" alt="Is branding the right thing to do for your business" />
+                                      <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="Is branding the right thing to do for your business" />
                                   </div>
                                   <div className="sp-get-reading-read-body">
                                     <p>Businesses come and go but brands last forever – a cliche and overused phrase? Yes, but it’s a tried-and-tested truth that some brands have existed forever while other brands were a mere flash in the pan...</p>
@@ -1326,7 +1285,7 @@ export default function Home() {
                               <div className="sp-works-work-heading"><span>Logo Design Mistakes:</span> You Should Avoid At All Costs</div>
                               <div className="sp-works-work-image-wrapper">
                                   <a href="https://www.thebackstorymedia.com/blogs/logo-design-mistakes/"><div className="sp-works-work-image blog-img">
-                                      <img className="img" src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/blogs-images/Logo Design Mistakes You Should Avoid At All Costs.png" alt="Logo Design Mistakes You Should Avoid At All Costs" />
+                                      <img className="img" src="https://placehold.co/600x400?text=Placeholder" alt="Logo Design Mistakes You Should Avoid At All Costs" />
                                   </div>
                                   <div className="sp-get-reading-read-body">
                                     <p>From Nike’s iconic swoosh to Apple’s bitten apple, one glance at these logos and you don’t have to think twice about which brand they signify. That’s because these logos are unforgettable, unique, and timeless...</p>

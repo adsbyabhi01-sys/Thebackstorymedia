@@ -59,12 +59,7 @@ export default function ServicesPage() {
                         <span>Menu</span><span>Close</span>
                       </div>
                     </div>
-                    <div className="simpleplan-menu-button">
-                      <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 1V7" stroke="white" strokeLinecap="square" strokeLinejoin="round"/>
-                        <path d="M1 4H7" stroke="white" strokeLinecap="square" strokeLinejoin="round"/>
-                      </svg>
-                    </div>
+                    <div className="simpleplan-menu-button"></div>
                   </div>
                 </a>
               </div>
@@ -143,7 +138,7 @@ export default function ServicesPage() {
         <section style={{ background: '#111111', paddingTop: '80px', paddingBottom: '120px' }}>
           <div style={{ paddingLeft: '20vw', paddingRight: '60px' }}>
             {services.map((s, i) => (
-              <div key={i} style={{
+              <div key={i} className="service-list-item" style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
@@ -151,7 +146,7 @@ export default function ServicesPage() {
                 padding: '28px 0',
                 cursor: 'default',
               }}>
-                <span style={{
+                <span className="service-list-num" style={{
                   fontFamily: "'PP Editorial Old', serif",
                   fontSize: '13px',
                   fontStyle: 'italic',
@@ -159,7 +154,7 @@ export default function ServicesPage() {
                   minWidth: '44px',
                 }}>{s.num}</span>
 
-                <span
+                <span className="service-list-title"
                   style={{
                     flex: 1,
                     fontFamily: "'PP Editorial Old', serif",
@@ -176,7 +171,7 @@ export default function ServicesPage() {
                   {s.name}
                 </span>
 
-                <span style={{
+                <span className="service-list-cat" style={{
                   fontFamily: "'Aspekta', sans-serif",
                   fontSize: '10px',
                   letterSpacing: '2.5px',
@@ -197,16 +192,7 @@ export default function ServicesPage() {
         <BottomSections />
 
         {/* FOOTER */}
-        <footer style={{
-          background: '#D8031D',
-          borderTop: '1px solid rgba(255,255,255,0.15)',
-          padding: '20px 60px',
-          textAlign: 'center',
-        }}>
-          <span style={{ fontFamily: "'Aspekta', sans-serif", fontSize: '11px', color: 'rgba(255,255,255,0.5)', letterSpacing: '1px' }}>
-            © {new Date().getFullYear()} The Backstory Media. All rights reserved.
-          </span>
-        </footer>
+        
       </div>
 
       <Script src="/js_wp/custom-animations.js" strategy="afterInteractive" />

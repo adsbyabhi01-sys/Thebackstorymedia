@@ -89,16 +89,9 @@ export default function BottomSections() {
         </div>
       </section>
 
-      {/* ── CONTACT FORM WITH ARCH ── */}
+      {/* ── CONTACT FORM ── */}
       <section style={{ background: '#D8031D', position: 'relative' }}>
         
-        {/* The White Arch connecting the top section to the red section */}
-        <div style={{ width: '100%', overflow: 'hidden', lineHeight: 0, backgroundColor: '#D8031D' }}>
-          <svg viewBox="0 0 1440 120" style={{ display: 'block', width: '100%', height: '120px' }} preserveAspectRatio="none">
-            <path d="M0,0 C480,120 960,120 1440,0 L1440,0 L0,0 Z" fill="#fff" />
-          </svg>
-        </div>
-
         <div style={{ display: 'flex', minHeight: '600px', flexWrap: 'wrap' }}>
           {/* Left: Form Area */}
           <div style={{

@@ -1,3 +1,26 @@
+
+// Replace jquery.in-viewport functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-viewport');
+                entry.target.classList.add('was-in-viewport');
+            } else {
+                entry.target.classList.remove('in-viewport');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    const elementsToWatch = document.querySelectorAll(
+        'section, .sp-quite-simple-heading, .sp-quite-simple-body, ' + 
+        '.sp-works-work-heading, .sp-we-do-circle, .sp-gob-heading, ' +
+        '.sp-glad-content, .sp-are-you-heading, .video-sec, .vs-heading'
+    );
+    
+    elementsToWatch.forEach(el => observer.observe(el));
+});
+
 // ==========================================
 // 1. SIMPLEPLAN EXACT 3-BALL CURSOR
 
@@ -114,7 +137,7 @@ $(document).ready(function() {
     try {
         new Swiper(".mySwiper", {
             direction: "vertical",
-            loop: true,
+            loop: false,
             autoplay: { delay: 2500, disableOnInteraction: false }
         });
     } catch(e) {}

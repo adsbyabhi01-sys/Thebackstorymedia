@@ -1,0 +1,8 @@
+# Mobile Responsiveness Rule
+Whenever adding or modifying sections, animations, components, or elements:
+1. Always test and verify behavior on 375px to 428px mobile viewport widths.
+2. Ensure there is NO horizontal overflow (`overflow-x: hidden` if necessary, but content must fit).
+3. Ensure NO decorative elements (like circles or shapes) block scrolling. Use `pointer-events: none` on large background/decorative elements.
+4. Section heights should be set by content (`height: auto`), NOT fixed `100vh` on mobile to prevent excessive scrolling or broken layouts.
+5. Ensure there are no unexpected large blank white spaces between sections.
+6. Make touch targets (links/buttons) at least 44px by 44px.

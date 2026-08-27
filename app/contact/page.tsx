@@ -53,12 +53,7 @@ export default function ContactPage() {
                     <div className="simpleplan-menu-text">
                       <div className="simpleplan-menu-text-wrapper"><span>Menu</span><span>Close</span></div>
                     </div>
-                    <div className="simpleplan-menu-button">
-                      <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 1V7" stroke="white" strokeLinecap="square" strokeLinejoin="round"/>
-                        <path d="M1 4H7" stroke="white" strokeLinecap="square" strokeLinejoin="round"/>
-                      </svg>
-                    </div>
+                    <div className="simpleplan-menu-button"></div>
                   </div>
                 </a>
               </div>
@@ -124,11 +119,11 @@ export default function ContactPage() {
         </section>
 
         {/* ── SECTION 2: CONTACT INFO + FORM ── */}
-        <section data-midnight="white" style={{ background: '#fff', display: 'flex', minHeight: '700px', flexWrap: 'wrap' }}>
+        <section className="contact-info-section" data-midnight="white" style={{ background: '#fff', display: 'flex', minHeight: '700px', flexWrap: 'wrap' }}>
 
           {/* LEFT: Info Panel */}
-          <div style={{
-            flex: '0 0 38%', minWidth: '320px', background: '#111', padding: '80px 60px',
+          <div className="contact-left-panel" style={{
+            flex: "0 0 38%", minWidth: "320px", background: "#111", padding: '80px 60px',
             display: 'flex', flexDirection: 'column', justifyContent: 'space-between',
           }}>
             <div>

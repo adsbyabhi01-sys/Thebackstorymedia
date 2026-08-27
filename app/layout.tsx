@@ -23,7 +23,7 @@ export default function RootLayout({
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/midnight.js/1.0.2/midnight.jquery.min.js" strategy="beforeInteractive" />
         <Script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" strategy="beforeInteractive" />
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" strategy="beforeInteractive" />
-        <Script src="https://www.thebackstorymedia.com/wp-content/themes/thebackstory/assets/js_wp/jquery.in-viewport-class.js" strategy="beforeInteractive" />
+        
       </head>
       <body>
         {children}
