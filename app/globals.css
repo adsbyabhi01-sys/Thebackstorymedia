@@ -1,0 +1,479 @@
+@import "tailwindcss";
+
+@import "../public/css/bundled_sp.css";
+
+/* Mobile Fixes from the HTML version */
+@media (max-width: 1024px) {
+    body, a, button, input, select, textarea, .sp-menu-link, .simpleplan-menu {
+        cursor: auto !important;
+    }
+    .cursor-wrapper {
+        display: none !important;
+    }
+    .simpleplan-logo a span {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    section.sp-banner-home {
+        min-height: 100vh;
+        background-color: #D8031D;
+    }
+    .sp-banner-home .container {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+    .circle-big {
+        width: 40vw !important;
+        height: 40vw !important;
+    }
+    .circle-small {
+        width: 28vw !important;
+        height: 28vw !important;
+    }
+    .banner-text-container {
+        position: absolute !important;
+        bottom: 60px !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+        z-index: 100 !important;
+        padding: 0 20px !important;
+        pointer-events: none;
+    }
+    .banner-text-wrapper {
+        flex-direction: column !important;
+        gap: 0 !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        justify-content: center !important;
+    }
+    .banner-text, .banner-text-3, .banner-text span {
+        font-size: 42px !important;
+        color: #fff !important;
+        display: block !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    .sp-quite-simple, .sp-works, .sp-we-do, .sp-give-our-best, .sp-glad-meet, .sp-are-you, .sp-video-section, .video-sec, section {
+        overflow-x: hidden;
+    }
+    .sp-quite-simple {
+        height: auto !important;
+        min-height: auto !important;
+        padding: 60px 20px 60px 20px !important;
+    }
+    .sp-quite-simple-text-wrapper {
+        padding: 30px 20px !important;
+        max-width: 100% !important;
+    }
+    .sp-quite-simple-svg {
+        display: none !important;
+    }
+    .sp-quite-slider-wrapper {
+        display: block !important;
+        padding: 40px 20px !important;
+    }
+    .quite-sp-slider-box {
+        width: min(320px, 85vw) !important;
+        height: min(320px, 85vw) !important;
+        margin: 0 auto !important;
+        border-radius: 50% !important;
+        background: #D8031D !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        padding: 20px !important;
+    }
+    .quite-sp-slider-heading h2 {
+        color: #fff !important;
+        font-size: 56px !important;
+        font-style: italic !important;
+    }
+    .quite-sp-slider-label p {
+        color: #fff !important;
+        font-size: 10px !important;
+        letter-spacing: 2.5px !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+    }
+    .sp-works-wrapper, .sp-get-reading-wrapper {
+        flex-direction: column !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .sp-works-work-heading {
+        width: 100% !important;
+        font-size: 22px !important;
+    }
+    .sp-works-work-image-wrapper {
+        width: 100% !important;
+    }
+    .sp-works-work-wrapper {
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+    .sp-works {
+        padding-top: 50px !important;
+    }
+    .sp-we-do-circles {
+        padding-right: 20px !important;
+        padding-top: 60px !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 20px !important;
+    }
+    .sp-we-do-circle {
+        width: 130px !important;
+        height: 130px !important;
+    }
+    .spwd-head {
+        font-size: 28px !important;
+    }
+    .spwd-body {
+        font-size: 10px !important;
+    }
+    .sp-we-do {
+        min-height: auto !important;
+        padding-bottom: 100px !important;
+        overflow: hidden !important;
+    }
+    .sp-give-our-best-wrapper {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .sp-gob-heading {
+        padding: 60px 0 30px !important;
+    }
+    .sp-gob-awards {
+        padding-top: 40px !important;
+        overflow-x: auto !important;
+    }
+    .sp-gob-awards-award {
+        width: 100% !important;
+        height: 72px !important;
+    }
+    h4 { font-size: 44px !important; }
+    .sp-glad-meet {
+        height: auto !important;
+        padding-top: 60px !important;
+    }
+    .sp-glad-meet-wrapper {
+        padding-left: 20px !important;
+        flex-direction: column !important;
+    }
+    .sp-glad-content {
+        max-width: 100% !important;
+        padding-right: 20px !important;
+    }
+    .sp-glad-picture {
+        width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        padding-bottom: 80% !important;
+        margin-top: 30px !important;
+    }
+    .video-sec {
+        height: auto !important;
+        min-height: auto !important;
+    }
+    .videosec-in {
+        flex-direction: column !important;
+        padding: 60px 20px !important;
+        gap: 30px !important;
+        position: relative !important;
+        top: auto !important;
+    }
+    .videosec-heading {
+        padding-left: 0 !important;
+        max-width: 100% !important;
+    }
+    .vs-heading h2 {
+        font-size: 40px !important;
+    }
+    .videosec-content {
+        width: 100% !important;
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+    .sp-are-you {
+        padding: 60px 20px !important;
+    }
+    .sp-are-you-tab-btns {
+        flex-wrap: wrap !important;
+        gap: 10px !important;
+    }
+    .sp-are-you-tab-btns .tablinks {
+        font-size: 13px !important;
+    }
+    .sp-faq-wrapper, .sp-faq-section {
+        padding: 60px 20px !important;
+    }
+    .sp-faq-question-wrapper {
+        padding: 20px !important;
+    }
+    .sp-process-wrapper, .sp-process-section {
+        padding: 60px 20px !important;
+    }
+    footer {
+        padding: 60px 20px !important;
+    }
+    .footer-top-wrapper {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+    .footer-top-left {
+        width: auto !important;
+        height: auto !important;
+    }
+    .footer-top-form form {
+        width: 100% !important;
+    }
+    .footer-bottom-left, .footer-bottom-right {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .footer-bottom-wrapper {
+        gap: 20px !important;
+    }
+    .footer-top-left-container {
+        text-align: left !important;
+        margin-top: 80px !important;
+    }
+    .footer-top-circles {
+        justify-content: left !important;
+    }
+    .simpleplan-hamburger-menu {
+        overflow-y: auto !important;
+    }
+    .simpleplan-hamburger-wrapper {
+        flex-direction: column !important;
+        padding: 100px 30px 40px !important;
+        gap: 40px !important;
+    }
+    .sp-menu-links {
+        gap: 10px !important;
+    }
+    .sp-menu-link a {
+        font-size: 48px !important;
+    }
+    .sp-menu-second {
+        width: 100% !important;
+        align-items: flex-start !important;
+        margin-bottom: 0 !important;
+    }
+    .sp-menu-secondary-link a {
+        font-size: 20px !important;
+    }
+    h2 { font-size: 44px !important; }
+    h3 { font-size: 38px !important; }
+    h5 { font-size: 26px !important; }
+    p { font-size: 15px !important; }
+    p.small { font-size: 13px !important; }
+    .sp-ticker {
+        bottom: -4vh !important;
+    }
+}
+
+
+
+
+
+
+/* ── Logo styling ── */
+.sp-main-logo {
+  height: auto !important;
+  width: 140px !important;
+  max-width: 100% !important;
+  object-fit: contain;
+  transition: opacity 0.2s ease;
+}
+
+/* Force default header logo to remain normal (white) */
+.midnightHeader.default .simpleplan-logo img.sp-main-logo,
+.midnightHeader.black .simpleplan-logo img.sp-main-logo {
+  filter: none !important;
+}
+
+/* Force white header logo to invert (become black) */
+.midnightHeader.white .simpleplan-logo img.sp-main-logo,
+
+
+@media (max-width: 767px) {
+  .sp-main-logo {
+    height: 30px !important;
+    width: auto !important;
+    max-width: 120px !important;
+  }
+}
+/* Force header to stay at the top and not follow scroll */
+.header-wrapper {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 100 !important;
+}
+/* Hide any leftover midnight headers if they were already created */
+.midnightInner, .midnightHeader {
+    display: none !important;
+}
+.header-wrapper .sp-main-logo {
+    filter: none !important;
+}
+
+
+/* HEADER SIZING AND MENU FIXES - V2 */
+.header-wrapper {
+    padding-top: 20px !important; 
+    padding-bottom: 20px !important;
+}
+.header-contents-wrapper {
+    padding: 0 40px !important;
+}
+/* Make Logo Big */
+.sp-main-logo {
+    width: 260px !important;
+    max-width: 100% !important;
+}
+/* Stop logo from turning black on menu open */
+body.menu-open .header-wrapper .sp-main-logo, 
+body.menu-open .sp-main-logo,
+.midnightHeader.white .simpleplan-logo img.sp-main-logo {
+    filter: none !important;
+}
+/* Make Menu text big to match logo */
+.simpleplan-menu-text-wrapper {
+    font-size: 28px !important;
+    font-weight: 400 !important;
+    height: 36px !important; /* Strict height */
+    overflow: hidden !important;
+}
+.simpleplan-menu-text-wrapper span {
+    height: 36px !important;
+    line-height: 36px !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: transform 0.8s cubic-bezier(0.75, 0, 0.25, 1) !important;
+}
+/* Properly translate to show "Close" text */
+body.menu-open .simpleplan-menu-text-wrapper span {
+    transform: translateY(-36px) !important;
+}
+/* Ensure Menu and Close text are white */
+.simpleplan-menu-text-wrapper span {
+    color: #fff !important;
+}
+.simpleplan-menu-text-wrapper span:nth-child(2) {
+    color: #fff !important;
+}
+/* Ensure hamburger icon stays white */
+.simpleplan-menu-button svg path {
+    stroke: #fff !important;
+}
+
+
+/* Fix MENU text U clipping on the right side due to original left: 10px */
+.simpleplan-menu-text-wrapper span:nth-child(1) {
+    left: 0 !important;
+    padding-right: 4px !important;
+}
+.simpleplan-menu-text-wrapper {
+    width: auto !important;
+    padding-right: 5px !important;
+}
+
+
+/* Force homepage banner text to be visible */
+.banner-text-wrapper h1 {
+    transform: translateY(0%) !important;
+    opacity: 1 !important;
+}
+
+
+/* Banner text container — sit below circles, centered */
+.banner-text-container {
+    width: 100% !important;
+    text-align: center !important;
+    left: 0 !important;
+    right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.banner-text-wrapper {
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+.banner-text-wrapper h1 {
+    text-align: center !important;
+    width: 100% !important;
+}
+
+
+/* Push banner text lower — into the blue-marked empty area */
+.banner-text-container {
+    bottom: 2vh !important;
+    padding-bottom: 20px !important;
+}
+
+/* Force "Your backstory, our craft" section text visible */
+.sp-quite-simple-heading h2 {
+    transform: translateY(0%) !important;
+    opacity: 1 !important;
+}
+.sp-quite-simple-body p {
+    transform: translateY(0%) !important;
+    opacity: 1 !important;
+}
+
+
+/* Gap between the SVG circles and the red section below */
+.sp-quite-simple-svg {
+    margin-bottom: 15vh !important; padding-bottom: 150px !important; /* Adjust if they are overlapping */
+    position: relative;
+    z-index: 10;
+}
+
+/* On mobile/smaller screens give it some specific spacing */
+@media (max-width: 767px) {
+    .sp-quite-simple-svg {
+        margin-bottom: 20px !important;
+    }
+}
+
+/* Make circles clickable */
+.circle-1-g, .circle-2-g, .circle-3-g {
+    cursor: pointer !important;
+}
+
+/* Increase hit area for mobile/desktop */
+.cls-2 {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+
+/* Fix the physical position of the "revenue" text in SVG so it aligns with the 3rd circle */
+
+
+/* Add massive gap above the red section below */
+.sp-quite-simple-safari, .sp-works {
+    margin-top: 15vh !important;
+}
