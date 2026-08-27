@@ -5,7 +5,7 @@ import React, { useEffect } from 'react';
 export default function Home() {
   
   useEffect(() => {
-    const handleCircleClick = (num) => {
+    const handleCircleClick = (num: number) => {
       // Hide all texts and deactivate circles
       [1, 2, 3].forEach(i => {
         const circle = document.getElementById(`circle-${i}`);
@@ -1470,7 +1470,7 @@ export default function Home() {
                      
 <div className="wpcf7 no-js" id="wpcf7-f2180-o1" lang="en-US" dir="ltr" data-wpcf7-id="2180">
 <div className="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="https://www.thebackstorymedia.com/#wpcf7-f2180-o1" method="post" className="wpcf7-form init" aria-label="Contact form" noValidate="noValidate" data-status="init">
+<form action="https://www.thebackstorymedia.com/#wpcf7-f2180-o1" method="post" className="wpcf7-form init" aria-label="Contact form" noValidate data-status="init">
 
 <div className="name-and-email">
 	<div className="sp-contact-form_field">
@@ -1479,7 +1479,7 @@ export default function Home() {
 			</p>
 		</div>
 		<div className="sp-contact-input">
-			<p><span className="wpcf7-form-control-wrap" data-name="name1"><input size="40" maxLength="400" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required sp-form-control" id="name1" aria-required="true" aria-invalid="false" placeholder="John Doe" defaultValue="" type="text" name="name1" /></span><br />
+			<p><span className="wpcf7-form-control-wrap" data-name="name1"><input size={40} maxLength={400} className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required sp-form-control" id="name1" aria-required="true" aria-invalid="false" placeholder="John Doe" defaultValue="" type="text" name="name1" /></span><br />
 <span className="error" id="nameError1"></span>
 			</p>
 		</div>
@@ -1490,7 +1490,7 @@ export default function Home() {
 			</p>
 		</div>
 		<div className="sp-contact-input">
-			<p><span className="wpcf7-form-control-wrap" data-name="email"><input size="40" maxLength="400" className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email sp-form-control" id="email1" aria-required="true" aria-invalid="false" placeholder="john.doe@gmail.com" defaultValue="" type="email" name="email" /></span><br />
+			<p><span className="wpcf7-form-control-wrap" data-name="email"><input size={40} maxLength={400} className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email sp-form-control" id="email1" aria-required="true" aria-invalid="false" placeholder="john.doe@gmail.com" defaultValue="" type="email" name="email" /></span><br />
 <span className="error" id="emailError1"></span>
 			</p>
 		</div>
@@ -1502,7 +1502,7 @@ export default function Home() {
 		</p>
 	</div>
 	<div className="sp-contact-input ct-code country-code-nub">
-		<p><span className="wpcf7-form-control-wrap" data-name="countrytext-918"><input size="40" className="wpcf7-form-control wpcf7-countrytext wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-countrytext country_code" aria-required="true" aria-invalid="false" defaultValue="" type="text" name="countrytext-918" /></span><span className="wpcf7-form-control-wrap" data-name="contact"><input size="40" maxLength="10" minLength="1" className="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel sp-form-control" id="contact1" aria-required="true" aria-invalid="false" placeholder="xxxx-xxxx-xx" defaultValue="" type="tel" name="contact" /></span><br />
+		<p><span className="wpcf7-form-control-wrap" data-name="countrytext-918"><input size={40} className="wpcf7-form-control wpcf7-countrytext wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-countrytext country_code" aria-required="true" aria-invalid="false" defaultValue="" type="text" name="countrytext-918" /></span><span className="wpcf7-form-control-wrap" data-name="contact"><input size={40} maxLength={10} minLength={1} className="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel sp-form-control" id="contact1" aria-required="true" aria-invalid="false" placeholder="xxxx-xxxx-xx" defaultValue="" type="tel" name="contact" /></span><br />
 <span className="error" id="contactError1"></span>
 		</p>
 	</div>
@@ -1513,7 +1513,7 @@ export default function Home() {
 		</p>
 	</div>
 	<div className="sp-contact-input">
-		<p><span className="wpcf7-form-control-wrap" data-name="message"><textarea cols="40" rows="10" maxLength="2000" className="wpcf7-form-control wpcf7-textarea sp-form-control" id="message1" aria-invalid="false" placeholder="Say Hi!" name="message"></textarea></span><br />
+		<p><span className="wpcf7-form-control-wrap" data-name="message"><textarea cols={40} rows={10} maxLength={2000} className="wpcf7-form-control wpcf7-textarea sp-form-control" id="message1" aria-invalid="false" placeholder="Say Hi!" name="message"></textarea></span><br />
 <span className="error" id="messageError1"></span>
 		</p>
 	</div>
@@ -1526,7 +1526,7 @@ export default function Home() {
                     className="apbct_special_field apbct_email_id__wp_contact_form_7"
                     name="apbct__email_id__wp_contact_form_7"
                     aria-label="apbct__label_id__wp_contact_form_7"
-                    type="text" size="30" maxLength="200" autoComplete="off"
+                    type="text" size={30} maxLength={200} autoComplete="off"
                     defaultValue=""
                 /><div className="wpcf7-response-output" aria-hidden="true"></div>
 </form>
@@ -1537,7 +1537,7 @@ export default function Home() {
                            {/*  Mailchimp for WordPress v4.14.0 - https://wordpress.org/plugins/mailchimp-for-wp/  */}<form id="mc4wp-form-1" className="mc4wp-form mc4wp-form-130" method="post" data-id="130" data-name="Subscription Form" ><div className="mc4wp-form-fields"><div className="subsc-class">
 <input type="email" name="EMAIL" placeholder="Your email address" required />
 <input type="submit" defaultValue="Join" />
-</div></div><label style={{ /* display: none !important; */ }}>Leave this field empty if you&#039;re human: <input type="text" name="_mc4wp_honeypot" defaultValue="" tabIndex="-1" autoComplete="off" /></label><div className="mc4wp-response"></div></form>{/*  / Mailchimp for WordPress Plugin  */}                           {/*   <form action="post">
+</div></div><label style={{ /* display: none !important; */ }}>Leave this field empty if you&#039;re human: <input type="text" name="_mc4wp_honeypot" defaultValue="" tabIndex={-1} autoComplete="off" /></label><div className="mc4wp-response"></div></form>{/*  / Mailchimp for WordPress Plugin  */}                           {/*   <form action="post">
                               <input placeholder="Email" type="text" />
                               <button>Join</button>
                               </form>  */}

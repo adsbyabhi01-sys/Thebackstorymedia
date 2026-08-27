@@ -69,7 +69,7 @@ function FaqItem({ q, a }: { q: string, a: string }) {
           fontFamily: "'Aspekta', sans-serif", 
           fontSize: '16px', 
           lineHeight: 1.6, 
-          color: 'rgba(255,255,255,0.8)', fontWeight: 600, 
+          color: 'rgba(255,255,255,0.8)', 
           marginTop: '24px', 
           marginBottom: 0, 
           maxWidth: '800px',
